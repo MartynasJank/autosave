@@ -1,0 +1,13 @@
+autosave plan
+
+2.Make Log in form
+
+1.Download all pictures as Zip file
+
+4.Animate gallery
+5.Add Swipping to gallery
+
+***MAYBE***
+
+make seperate gallery page (Might need DB)
+Auto delete pictures after 10 minutes (NEED DB TO RUN EVERY 10 MINS)
