@@ -1,6 +1,7 @@
 <?php
     require_once 'includes/header.php';
     include('includes/saving.php');
+    $files = scandir($path);
 ?>
 
 <div class="container">

@@ -13,10 +13,10 @@ $to = $_POST['to'];
 $mail = new PHPMailer;
 
 $mail->isSMTP();                                            // Send using SMTP
-$mail->Host       = 'lydeka.serveriai.lt';                    // Set the SMTP server to send through
+$mail->Host       = '';                    // Set the SMTP server to send through
 $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-$mail->Username   = 'logistika@autopara.lt';                     // SMTP username
-$mail->Password   = 'Airmeat1996';                               // SMTP password
+$mail->Username   = '';                     // SMTP username
+$mail->Password   = '';                               // SMTP password
 $mail->SMTPSecure = "ssl";         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` also accepted
 $mail->Port       = 465;                                    // TCP port to connect to
 
